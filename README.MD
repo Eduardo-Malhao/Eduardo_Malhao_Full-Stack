@@ -1,17 +1,65 @@
-NPM I
+# 🚀 Fullstack Application - Passo a Passo
 
-NPX PRISMA GENERATE
+Olá!  
+Aqui está o passo a passo para rodar sua aplicação **Fullstack** ✅
 
-DOCKER COMPOSE UP
+## 🖥️ Frontend
 
-NPM RUN PRISMA:SEED
+1️⃣ Abra um terminal e acesse a pasta `frontend`:
 
-CASO TENHA MIGRATION:
-NPX prisma MIGRATE RESET
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
+👉 O comando `npm run dev` irá disponibilizar a aplicação em uma URL `http://localhost:<porta>` no seu navegador.
+
+### 🔐 Usuário para acesso:
+
+- **Email:** `joao.silva@example.com`  
+- **Senha:** `123456789`
+
+## 🛠️ Backend
+
+2️⃣ Em outro terminal, acesse a pasta `backend`:
+
+```bash
+cd backend
+npm install
+npx prisma generate
+docker compose up -d  # aguarde finalizar
 npx prisma migrate dev --name init
 npm run prisma:seed
+npm run build
+npm start
+```
 
-NPM RUN BUILD
+## ♻️ Resetar banco de dados
 
-NPM START
+Caso deseje restaurar o banco de dados para o estado original, com o Docker rodando:
+
+```bash
+npx prisma migrate reset
+npm run prisma:seed
+npm run build
+npm start
+```
+
+## 🐳 Notas sobre Docker no Ubuntu
+
+Caso esteja usando Ubuntu, utilize permissões de super usuário para rodar os containers:
+
+```bash
+sudo docker compose up -d
+sudo docker compose down
+```
+
+## 📫 Contato
+
+- [🔗 Meu LinkedIn](https://www.linkedin.com/in/eduardo-malhao/)
+- [💬 Meu WhatsApp (Clique para enviar mensagem)](https://wa.me/5512981733073?text=Ol%C3%A1%20Eduardo!%20Vim%20pelo%20GitHub%20🚀)
+
+---
+
+Bons estudos e bom desenvolvimento! 🚀
