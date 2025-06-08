@@ -1,0 +1,17 @@
+NPM I
+
+NPX PRISMA GENERATE
+
+DOCKER COMPOSE UP
+
+NPM RUN PRISMA:SEED
+
+CASO TENHA MIGRATION:
+NPX prisma MIGRATE RESET
+
+npx prisma migrate dev --name init
+npm run prisma:seed
+
+NPM RUN BUILD
+
+NPM START

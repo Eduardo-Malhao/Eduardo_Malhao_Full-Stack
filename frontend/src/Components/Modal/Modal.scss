@@ -1,0 +1,15 @@
+.modal-content {
+  background-color: #fff !important;
+}
+
+.modal-scroll {
+  max-height: 500px;
+}
+
+.close-button {
+  color: #767676 !important;
+
+  &:hover {
+    color: red !important;
+  }
+}
