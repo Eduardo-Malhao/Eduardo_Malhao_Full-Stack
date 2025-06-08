@@ -57,8 +57,8 @@ sudo docker compose down
 
 ## 📫 Contato
 
-- [🔗 Meu LinkedIn](https://www.linkedin.com/in/eduardo-malhao/)
-- [💬 Meu WhatsApp (Clique para enviar mensagem)](https://wa.me/5512981733073?text=Ol%C3%A1%20Eduardo!%20Vim%20pelo%20GitHub%20🚀)
+- <a href="https://www.linkedin.com/in/eduardo-malhao/" target="_blank">🔗 Meu LinkedIn</a>
+- <a href="https://wa.me/5512981733073?text=Ol%C3%A1%20Eduardo!%20Vim%20pelo%20GitHub%20🚀" target="_blank">💬 Meu WhatsApp (Clique para enviar mensagem)</a>
 
 ---
 
