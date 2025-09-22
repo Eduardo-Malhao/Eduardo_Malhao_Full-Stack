@@ -19,7 +19,6 @@ const Profile_Form: React.FC<FormProps> = ({
   const navigate = useNavigate();
 
   const { handleSubmit, formState: { isValid, errors } } = useFormContext<Profile_FormData>();
-  console.log(errors);
 
   return (
     <form
